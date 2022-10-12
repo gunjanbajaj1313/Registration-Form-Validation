@@ -1,0 +1,46 @@
+
+    body {
+      background-color: whitesmoke;
+      color: black;
+    }
+
+    .registration-form{
+      background-color: black;
+      width: 700px;
+      height: 90vh;
+      border-radius: 40px;
+      box-shadow: rgba(0, 0, 0, 0.25) 50px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      margin: 20px auto;
+      border: 2px solid white;
+    }
+    h1{
+      position: relative;
+    }
+    h1::before{
+      content: "";
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 120px;
+      border-radius: 20px;
+      background:whitesmoke;
+      left: 0;
+      top: 54%;
+    }
+    h1::after{
+      content: "";
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 120px;
+      border-radius: 20px;
+      background:whitesmoke;
+      right: 0;
+      top: 54%;
+    }
+  
+
+
+
+   
+  
